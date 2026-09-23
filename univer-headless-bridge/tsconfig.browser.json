@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "rootDir": "src",
+    "noEmit": true,
+    "types": []
+  },
+  "include": ["src/browser/**/*.ts", "src/schema/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
