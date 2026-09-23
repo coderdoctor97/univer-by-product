@@ -1,0 +1,7 @@
+node_modules/
+dist/
+out/
+*.pdf
+!examples/*.pdf
+*.log
+.playwright/
